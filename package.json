@@ -1,0 +1,28 @@
+{
+  "name": "http_host-health",
+  "version": "0.1.0",
+  "description": "An http server returning the hosts resource usage",
+  "main": "http_host_health.js",
+  "preferGlobal": true,
+  "bin": {
+    "http-host-health": "./host_perf.js"
+  },
+  "dependencies": {
+    "httpdispatcher": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node host_perf.js 4242",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MainRo/host_perf.git"
+  },
+  "keywords": [
+    "monitoring"
+  ],
+  "author": "R. Picard <romain.picard@softathome.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/MainRo/host_perf"
+}
